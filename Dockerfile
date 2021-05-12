@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-RUN MKDIR /app
+RUN mkdir /app
 
 ADD . /app
 
