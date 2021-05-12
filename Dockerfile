@@ -4,7 +4,7 @@ RUN mkdir /app
 
 ADD . /app
 
-WORKDIR /APP
+WORKDIR /app
 
 RUN go clean --modcache
 
