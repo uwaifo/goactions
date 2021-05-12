@@ -20,7 +20,7 @@ jobs:
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
         ## the name of our image
-        name: overstandapp/goactions101
+        name: overstandapps/goactions101
         ## Here we pass in our Docker Username
         username: ${{ secrets.DOCKER_USERNAME }}
         ## and our Docker password which 
